@@ -1,7 +1,7 @@
 import AnimatedCounter from "./AnimatedCounter";
 import DoughnutCahrt from "./DoughnutCahrt";
 
-const TotalbalanceBox = ({
+const TotalBalanceBox = ({
   accounts = [],
   totalBanks,
   totalCurrentBalance,
@@ -17,6 +17,7 @@ const TotalbalanceBox = ({
 
         <div className="flex flex-col gap-2">
           <p className="total-balance-label">Total Current Balancee</p>
+
           <div className="total-balance-amount flex-center gap-2">
             <AnimatedCounter amount={totalCurrentBalance} />
           </div>
@@ -26,4 +27,4 @@ const TotalbalanceBox = ({
   );
 };
 
-export default TotalbalanceBox;
+export default TotalBalanceBox;
