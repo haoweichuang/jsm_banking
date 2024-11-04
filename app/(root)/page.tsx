@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderBox from "@/components/ui/HeaderBox";
-import TotalBalanceBox from "@/components/ui/TotalBalanceBox";
+import TotalBalanceBox from "@/components/TotalBalanceBox";
 import RightSidebar from "@/components/RightSidebar";
 
 const Home = () => {
